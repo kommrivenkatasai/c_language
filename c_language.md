@@ -4,7 +4,7 @@ A collection of beginner-friendly pointer problems in C to understand arrays, po
 
 ---
 
-## ✅ Problem 3: Print Elements of an Array Using a Pointer
+## ✅ Problem 1: Print Elements of an Array Using a Pointer
 
 **📝 Problem Statement:**  
 Given an array of integers, use a pointer to print each element.
@@ -37,7 +37,7 @@ int main() {
 
 ---
 
-## ✅ Problem 4: Find the Maximum Element Using a Pointer
+## ✅ Problem 2: Find the Maximum Element Using a Pointer
 
 **📝 Problem Statement:**  
 Use a pointer to find the maximum number in an array.
@@ -74,7 +74,7 @@ int main() {
 
 ---
 
-## ✅ Problem 5: Reverse the Array Using Pointers
+## ✅ Problem 3: Reverse the Array Using Pointers
 
 **📝 Problem Statement:**  
 Reverse an array in-place using two pointers.
@@ -101,7 +101,7 @@ int arr[] = {10, 20, 30, 40, 50};
 int main() {
     int arr[] = {10, 20, 30, 40, 50};
     int *start = arr;
-    int *end = arr + 4; // last element (5 - 1)
+    int *end = arr + 4; 
 
     while (start < end) {
         int temp = *start;
