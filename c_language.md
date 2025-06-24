@@ -1,6 +1,5 @@
 # 💡 Pointer Practice in C
 
-A collection of beginner-friendly pointer problems in C to understand arrays, pointers, and memory manipulation.
 
 ---
 
